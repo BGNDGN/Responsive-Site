@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 7px;
+}
+
+body{
+    line-height: 1.5;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    padding: 16px 0px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.clearfix::after {
+    content:"";
+    display:block;
+    clear: both;
+}
+
+header{
+    height: 460;
+}
+
+header h1{
+    font-size: 50px;
+}
+
+header .a{
+    font-size: 25px;
+    padding-bottom: 3px;
+}
+
+header .bg-image{
+    position:absolute;
+    background-image: url(images/otagtepe_manzara_750x468.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 460px;
+    width: 100%;
+    opacity: 0.3;
+    z-index:-1;
+}
+
+.buton{
+    display: inline-block;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    padding: 16px 32px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    transition: all 0.5s;
+}
+
+.buton:hover{
+    background-color: white;
+    color: #666;
+}
+
+#section-a{
+    background-color: white;
+    color: gray; 
+    padding: 32px 0;
+}
+
+#section-b{
+    padding: 20px;
+}
+
+#section-b ul{
+    list-style: none;
+}
+
+#section-b li{
+    background: white;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.col-content{
+    padding: 15px;
+}
+
+#section-c{
+    background-color: white;
+    color: gray;
+    padding: 50px;
+}
+
+#section-d .box{
+    padding: 50px;
+
+}
+
+#section-d .baslik{
+    text-decoration: underline;
+    color: black;
+    font-size:15px;
+}
+
+#section-d .baslik2{
+    text-decoration: underline;
+    color: black;
+    font-size:15px;
+}
+
+#section-d .box:first-child{
+    background-color: goldenrod;
+}
+
+#section-d .box2{
+    padding: 50px;  
+}
+
+#section-d .renk1{
+    color: red;
+    font-size:15px;
+}
+
+#section-d .renk2{
+    color: red;
+    font-size:15px;
+}
+
+#section-d .renk3{
+    color: red;
+    font-size:15px;
+}
+
+#section-d .renk4{
+    color: red;
+    font-size:15px;
+}
+
+#section-d .renk5{
+    color: red;
+    font-size:15px;
+}
+footer{
+    padding: 40px;
+    background-color: black;
+}
+
+footer a{
+    color:green;
+}
+
+footer .a{
+    color:Red;
+}
+
+footer .b{
+    text-decoration: underline;
+
+}
+
+@media screen and (min-width:800px) {
+    html{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    html{
+        font-size: 20px;
+    }
+    #section-b li{
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+    .box{
+        width:50%;
+        float: left;
+    }
+}
+
